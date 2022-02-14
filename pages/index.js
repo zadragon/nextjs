@@ -1,3 +1,10 @@
+import NavBar from "../components/NavBar";
+
 export default function Home() {
-  return "hi"
+  return (
+    <div>
+      <NavBar />
+      <h1>네비바</h1>
+    </div>
+  )
 }
